@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+.box{
+    width: 500px;
+    height: 500px;
+    border: 5px solid red;
+    margin: 20px auto;
+    justify-content: center;
+ }
+.item1, .item2 , .item3 , .item4 , .item5 {
+     width: 100px;
+     height: 100px;
+    }
+.item1{
+        top: 10px;
+        left: 10px;
+        position: relative;
+        background-color: antiquewhite;
+ }
+.item2{
+        bottom: 90px;
+        left: 470px;
+        background-color: blanchedalmond;
+        position: relative
+}
+.item3{
+    left: 10px;
+    bottom: 0px;
+    /*bottom: 20px;*/
+    background-color: aqua;
+    position: relative
+  
+ }
+.item4{
+    right: 10px;
+    top: 20px;
+    background-color: darkcyan;
+    position: relative
+}
+.item5{
+    left: 200px;
+    right: 200px;
+    background-color: coral;
+    position:relative
+}
