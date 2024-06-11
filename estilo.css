@@ -2,15 +2,21 @@ h1{
     text-align: center;
 }
 .box{
-    width: 500px;
-    height: 500px;
-    border: 5px solid red;
-    margin: 20px auto;
-    justify-content: center;
+        width: 500px;
+        height: 500px;
+        border: 5px solid ;
+        margin:  10px auto;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    
  }
 .item1, .item2 , .item3 , .item4 , .item5 {
-     width: 100px;
-     height: 100px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        justify-content: center;
+        margin: 10px 10px 10px
     }
 .item1{
         top: 10px;
@@ -19,28 +25,42 @@ h1{
         background-color: antiquewhite;
  }
 .item2{
-        bottom: 90px;
-        left: 470px;
-        background-color: blanchedalmond;
-        position: relative
+        border: 5px solid green; 
+        position: absolute;
+        right: 0; 
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
 }
 .item3{
-    left: 10px;
-    bottom: 0px;
-    /*bottom: 20px;*/
-    background-color: aqua;
-    position: relative
+    border: 5px solid aqua;
+        position: absolute;
+        bottom: 0;
+        left: 0; 
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    
+
   
  }
-.item4{
-    right: 10px;
-    top: 20px;
-    background-color: darkcyan;
-    position: relative
+.item4}
+      border: 5px solid darkcyan;
+        position: absolute;
+        right: 0;
+        bottom: 0; 
+        justify-content: center;
+        align-items: center;
+        display: flex;
 }
 .item5{
-    left: 200px;
-    right: 200px;
-    background-color: coral;
-    position:relative
-}
+        border: 5px solid ;
+        position: absolute;
+        right: 200px;
+        bottom: 200px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+          
+    }
